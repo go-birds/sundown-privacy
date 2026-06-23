@@ -1,0 +1,65 @@
+{
+  "methodology": "Approx tokens = ceil(chars / 4). Baseline = rg hits + full candidate file reads.",
+  "tests": [
+    {
+      "key": "architecture_flow",
+      "title": "Architecture Flow",
+      "prompt": "Explain how a new game session is created, persisted, restored, and shown on the game screen. Include the main classes/functions and the file paths.",
+      "codegraph_tokens": 4928,
+      "baseline_tokens": 33635,
+      "tokens_saved": 28707,
+      "tokens_saved_pct": 85.34859521331946,
+      "codegraph_chars": 19711,
+      "baseline_chars": 134539,
+      "codegraph_seconds": 0.42945037500000005,
+      "baseline_seconds": 0.259946958,
+      "baseline_file_reads": 9,
+      "baseline_rg_calls": 2,
+      "codegraph_calls": 1,
+      "raw_codegraph_file": "/Users/ncoleman/Documents/Codex/2026-06-23/lo/outputs/codegraph-token-benchmark-raw/architecture_flow.codegraph.md",
+      "raw_baseline_file": "/Users/ncoleman/Documents/Codex/2026-06-23/lo/outputs/codegraph-token-benchmark-raw/architecture_flow.baseline.md"
+    },
+    {
+      "key": "change_impact",
+      "title": "Change Impact",
+      "prompt": "Suppose we change the Game model to track a new per-cell annotation state. What code would likely need updates, what tests should be run or added, and what are the risky dependencies?",
+      "codegraph_tokens": 4175,
+      "baseline_tokens": 38642,
+      "tokens_saved": 34467,
+      "tokens_saved_pct": 89.1956938046685,
+      "codegraph_chars": 16700,
+      "baseline_chars": 154566,
+      "codegraph_seconds": 0.22292566700000005,
+      "baseline_seconds": 0.020131041999999932,
+      "baseline_file_reads": 12,
+      "baseline_rg_calls": 2,
+      "codegraph_calls": 1,
+      "raw_codegraph_file": "/Users/ncoleman/Documents/Codex/2026-06-23/lo/outputs/codegraph-token-benchmark-raw/change_impact.codegraph.md",
+      "raw_baseline_file": "/Users/ncoleman/Documents/Codex/2026-06-23/lo/outputs/codegraph-token-benchmark-raw/change_impact.baseline.md"
+    },
+    {
+      "key": "debug_completion",
+      "title": "Debugging Investigation",
+      "prompt": "Investigate why a completed puzzle might not transition to the completed state or show completion UI. Trace the likely state flow and identify the most relevant files/functions to inspect or change.",
+      "codegraph_tokens": 4446,
+      "baseline_tokens": 34819,
+      "tokens_saved": 30373,
+      "tokens_saved_pct": 87.23110945173612,
+      "codegraph_chars": 17782,
+      "baseline_chars": 139275,
+      "codegraph_seconds": 0.18976841700000002,
+      "baseline_seconds": 0.018365500000000035,
+      "baseline_file_reads": 10,
+      "baseline_rg_calls": 2,
+      "codegraph_calls": 1,
+      "raw_codegraph_file": "/Users/ncoleman/Documents/Codex/2026-06-23/lo/outputs/codegraph-token-benchmark-raw/debug_completion.codegraph.md",
+      "raw_baseline_file": "/Users/ncoleman/Documents/Codex/2026-06-23/lo/outputs/codegraph-token-benchmark-raw/debug_completion.baseline.md"
+    }
+  ],
+  "totals": {
+    "baseline_tokens": 107096,
+    "codegraph_tokens": 13549,
+    "tokens_saved": 93547,
+    "tokens_saved_pct": 87.34873384626877
+  }
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#111827}.axis{stroke:#D1D5DB;stroke-width:1}.grid{stroke:#E5E7EB;stroke-width:1}</style>
+<text x="500.0" y="36" font-size="22" text-anchor="middle" font-weight="700">Sundown CodeGraph Token Benchmark</text>
+<text x="500.0" y="60" font-size="14" text-anchor="middle" font-weight="400">Estimated context tokens per task</text>
+<line x1="90" x2="960" y1="500.0" y2="500.0" class="grid"/>
+<text x="78" y="505.0" font-size="12" text-anchor="end" font-weight="400">0</text>
+<line x1="90" x2="960" y1="416.0" y2="416.0" class="grid"/>
+<text x="78" y="421.0" font-size="12" text-anchor="end" font-weight="400">9,119</text>
+<line x1="90" x2="960" y1="332.0" y2="332.0" class="grid"/>
+<text x="78" y="337.0" font-size="12" text-anchor="end" font-weight="400">18,239</text>
+<line x1="90" x2="960" y1="248.0" y2="248.0" class="grid"/>
+<text x="78" y="253.0" font-size="12" text-anchor="end" font-weight="400">27,358</text>
+<line x1="90" x2="960" y1="164.0" y2="164.0" class="grid"/>
+<text x="78" y="169.0" font-size="12" text-anchor="end" font-weight="400">36,478</text>
+<line x1="90" x2="960" y1="80.0" y2="80.0" class="grid"/>
+<text x="78" y="85.0" font-size="12" text-anchor="end" font-weight="400">45,597</text>
+<line x1="90" x2="90" y1="80" y2="500" class="axis"/>
+<line x1="90" x2="960" y1="500" y2="500" class="axis"/>
+<rect x="149.7" y="190.2" width="81.2" height="309.8" rx="4" fill="#6B7280"/>
+<text x="190.34" y="182.18736967504395" font-size="12" text-anchor="middle" font-weight="400">33,635</text>
+<rect x="239.1" y="454.6" width="81.2" height="45.4" rx="4" fill="#2563EB"/>
+<text x="279.66" y="446.6080974508285" font-size="12" text-anchor="middle" font-weight="400">4,928</text>
+<text x="235.0" y="530" font-size="13" text-anchor="middle" font-weight="600">Architecture Flow</text>
+<text x="235.0" y="552" font-size="13" text-anchor="middle" font-weight="400">85.3% saved</text>
+<rect x="439.7" y="144.1" width="81.2" height="355.9" rx="4" fill="#6B7280"/>
+<text x="480.34" y="136.06779661016947" font-size="12" text-anchor="middle" font-weight="400">38,642</text>
+<rect x="529.1" y="461.5" width="81.2" height="38.5" rx="4" fill="#2563EB"/>
+<text x="569.66" y="453.5439948979726" font-size="12" text-anchor="middle" font-weight="400">4,175</text>
+<text x="525.0" y="530" font-size="13" text-anchor="middle" font-weight="600">Change Impact</text>
+<text x="525.0" y="552" font-size="13" text-anchor="middle" font-weight="400">89.2% saved</text>
+<rect x="729.7" y="179.3" width="81.2" height="320.7" rx="4" fill="#6B7280"/>
+<text x="770.34" y="171.2815229586846" font-size="12" text-anchor="middle" font-weight="400">34,819</text>
+<rect x="819.1" y="459.0" width="81.2" height="41.0" rx="4" fill="#2563EB"/>
+<text x="859.66" y="451.0478086985356" font-size="12" text-anchor="middle" font-weight="400">4,446</text>
+<text x="815.0" y="530" font-size="13" text-anchor="middle" font-weight="600">Debugging Investigation</text>
+<text x="815.0" y="552" font-size="13" text-anchor="middle" font-weight="400">87.2% saved</text>
+<rect x="690" y="90" width="18" height="18" rx="3" fill="#6B7280"/>
+<text x="716" y="104" font-size="13" text-anchor="start" font-weight="400">No-index baseline</text>
+<rect x="690" y="118" width="18" height="18" rx="3" fill="#2563EB"/>
+<text x="716" y="132" font-size="13" text-anchor="start" font-weight="400">CodeGraph</text>
+</svg>
